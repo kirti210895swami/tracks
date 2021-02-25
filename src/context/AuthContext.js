@@ -15,6 +15,7 @@ const authReducer = (state,action) => {
              return state;
      }
 };
+
 // when we move from signin to signup error msg is still there,for this below code is used
 const clearErrorMessage = dispatch => () =>{
   dispatch({type:'clear_error_message'});
